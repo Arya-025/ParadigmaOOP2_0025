@@ -39,5 +39,11 @@ class Budi : public pekerja, public pelajar {
     {
         cout << "budi di buat \n" << endl;
     }
-;
+
+};
+
+int main(){
+    Budi a(12);
+
+    return 0;
 }
